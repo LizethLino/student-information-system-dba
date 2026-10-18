@@ -99,24 +99,40 @@ oracle-student-information-system/
 │   ├── dba-runbook.md
 │   ├── troubleshooting-log.md
 │   └── backup-recovery.md
-├── sql/
+├── database-setup/
 │   ├── 01_environment_checks.sql
 │   ├── 02_create_schema.sql
 │   ├── 03_create_tables.sql
 │   ├── 04_seed_data.sql
 │   ├── 05_constraints_indexes.sql
 │   └── 06_validation_queries.sql
-├── dba/
-│   ├── users_and_roles.sql
-│   ├── privilege_tests.sql
-│   ├── monitoring.sql
-│   └── performance_tests.sql
-├── plsql/
-│   ├── procedures.sql
-│   ├── functions.sql
-│   ├── packages.sql
-│   ├── triggers.sql
-│   └── error_handling.sql
+├── sql-labs/
+│   ├── 01_select_filter_sort.sql
+│   ├── 02_joins_and_subqueries.sql
+│   ├── 03_aggregation_and_reporting.sql
+│   ├── 04_data_manipulation.sql
+│   ├── 05_transactions_and_concurrency.sql
+│   ├── 06_constraints_and_integrity.sql
+│   ├── 07_views_and_sequences.sql
+│   └── 08_execution_plans_and_indexes.sql
+├── dba-labs/
+│   ├── 01_environment_inventory/
+│   ├── 02_data_dictionary/
+│   ├── 03_users_roles_privileges/
+│   ├── 04_tablespaces_and_storage/
+│   ├── 05_sessions_and_connections/
+│   ├── 06_object_maintenance/
+│   ├── 07_monitoring_and_diagnostics/
+│   └── 08_backup_and_recovery/
+├── plsql-labs/
+│   ├── 01_anonymous_blocks.sql
+│   ├── 02_conditionals_and_loops.sql
+│   ├── 03_procedures/
+│   ├── 04_functions/
+│   ├── 05_cursors/
+│   ├── 06_packages/
+│   ├── 07_triggers/
+│   ├── 08_exceptions_and_transactions/
 ├── tests/
 │   ├── schema_tests.sql
 │   ├── plsql_tests.sql
@@ -179,7 +195,7 @@ Through this project, I aim to strengthen my practical understanding of:
 
 ## Project Status
 
-**Status:** In progress — initial database schema designed; implementation and validation are the next steps.
+**Status:** In progress — database created, will begin to focus more intently on dba, sql, and pl/sql hands-on labs.
 
 This README and the accompanying documentation will evolve as features are implemented, test results are recorded, and additional database administration exercises are completed.
 
