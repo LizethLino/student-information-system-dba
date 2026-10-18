@@ -60,7 +60,7 @@ A database design diagram and data dictionary will be added as the schema and do
 The project is being developed in phases so that each area can be implemented, tested, and documented before moving to the next.
 
 - [x] **Phase 1 — Initial Schema Design:** Define the core entities, relationships, columns, and integrity constraints.
-- [ ] **Phase 2 — Schema Implementation and Seed Data:** Create the tables, populate synthetic records, and validate relationships.
+- [x] **Phase 2 — Schema Implementation and Seed Data:** Create the tables, populate synthetic records, and validate relationships.
 - [ ] **Phase 3 — SQL Queries and Reporting:** Develop joins, aggregations, subqueries, and reports for student enrollment, attendance, and grades.
 - [ ] **Phase 4 — Oracle Administration and Security:** Practice database users, roles, privileges, access-control testing, and administrative queries.
 - [ ] **Phase 5 — PL/SQL Automation:** Implement procedures, functions, triggers, exception handling, and transaction management.
